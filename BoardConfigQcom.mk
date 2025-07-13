@@ -126,6 +126,7 @@ SOONG_CONFIG_qtidisplay += \
     smmu_proxy \
     ubwcp_headers \
     wide_color \
+    target_no_camera_custom_format \
     target_no_raw10_custom_format \
     target_uses_aligned_ycbcr_height \
     target_uses_aligned_ycrcb_height \
@@ -155,6 +156,7 @@ SOONG_CONFIG_qtidisplay_smmu_proxy ?= false
 SOONG_CONFIG_qtidisplay_ubwcp_headers ?= false
 SOONG_CONFIG_qtidisplay_composer_version ?= v2
 SOONG_CONFIG_qtidisplay_wide_color ?= false
+SOONG_CONFIG_qtidisplay_target_no_camera_custom_format ?= false
 SOONG_CONFIG_qtidisplay_target_no_raw10_custom_format ?= false
 SOONG_CONFIG_qtidisplay_target_uses_aligned_ycbcr_height ?= false
 SOONG_CONFIG_qtidisplay_target_uses_aligned_ycrcb_height ?= false
